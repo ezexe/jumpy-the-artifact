@@ -1,0 +1,89 @@
+
+GO.png
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+ruby-c
+  rotate: false
+  xy: 2, 111
+  size: 75, 107
+  orig: 116, 113
+  offset: 20, 0
+  index: 1
+ruby-c
+  rotate: false
+  xy: 2, 2
+  size: 75, 107
+  orig: 116, 113
+  offset: 20, 0
+  index: 10
+ruby-c
+  rotate: false
+  xy: 79, 111
+  size: 75, 107
+  orig: 116, 113
+  offset: 20, 0
+  index: 11
+ruby-c
+  rotate: false
+  xy: 79, 2
+  size: 75, 107
+  orig: 116, 113
+  offset: 20, 0
+  index: 12
+ruby-c
+  rotate: false
+  xy: 156, 111
+  size: 75, 107
+  orig: 116, 113
+  offset: 20, 0
+  index: 2
+ruby-c
+  rotate: false
+  xy: 156, 2
+  size: 75, 107
+  orig: 116, 113
+  offset: 20, 0
+  index: 3
+ruby-c
+  rotate: false
+  xy: 233, 111
+  size: 75, 107
+  orig: 116, 113
+  offset: 20, 0
+  index: 4
+ruby-c
+  rotate: false
+  xy: 233, 2
+  size: 75, 107
+  orig: 116, 113
+  offset: 20, 0
+  index: 5
+ruby-c
+  rotate: false
+  xy: 310, 111
+  size: 75, 107
+  orig: 116, 113
+  offset: 20, 0
+  index: 6
+ruby-c
+  rotate: false
+  xy: 310, 2
+  size: 75, 107
+  orig: 116, 113
+  offset: 20, 0
+  index: 7
+ruby-c
+  rotate: false
+  xy: 387, 111
+  size: 75, 107
+  orig: 116, 113
+  offset: 20, 0
+  index: 8
+ruby-c
+  rotate: false
+  xy: 387, 2
+  size: 75, 107
+  orig: 116, 113
+  offset: 20, 0
+  index: 9

@@ -1,0 +1,61 @@
+
+1_9.png
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+green-mountains-2-right
+  rotate: false
+  xy: 2, 112
+  size: 201, 252
+  orig: 201, 256
+  offset: 0, 0
+  index: -1
+green-mountains-2-left
+  rotate: false
+  xy: 205, 159
+  size: 201, 205
+  orig: 201, 256
+  offset: 0, 0
+  index: -1
+green-mountains-1-left
+  rotate: false
+  xy: 408, 175
+  size: 201, 189
+  orig: 201, 200
+  offset: 0, 0
+  index: -1
+green-mountains-1-right
+  rotate: false
+  xy: 611, 175
+  size: 201, 189
+  orig: 201, 200
+  offset: 0, 0
+  index: -1
+platform-green-left
+  rotate: false
+  xy: 2, 4
+  size: 257, 106
+  orig: 257, 112
+  offset: 0, 0
+  index: -1
+complete-green-left
+  rotate: false
+  xy: 408, 122
+  size: 257, 51
+  orig: 257, 135
+  offset: 0, 78
+  index: -1
+complete-green-right
+  rotate: false
+  xy: 261, 2
+  size: 257, 118
+  orig: 257, 135
+  offset: 0, 11
+  index: -1
+platform-green-right
+  rotate: false
+  xy: 520, 14
+  size: 257, 106
+  orig: 257, 112
+  offset: 0, 0
+  index: -1

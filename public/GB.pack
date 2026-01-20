@@ -1,0 +1,89 @@
+
+GB.png
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+ruby-b
+  rotate: false
+  xy: 2, 111
+  size: 68, 107
+  orig: 116, 113
+  offset: 23, 0
+  index: 1
+ruby-b
+  rotate: false
+  xy: 2, 2
+  size: 68, 107
+  orig: 116, 113
+  offset: 23, 0
+  index: 10
+ruby-b
+  rotate: false
+  xy: 72, 111
+  size: 68, 107
+  orig: 116, 113
+  offset: 23, 0
+  index: 11
+ruby-b
+  rotate: false
+  xy: 72, 2
+  size: 68, 107
+  orig: 116, 113
+  offset: 23, 0
+  index: 12
+ruby-b
+  rotate: false
+  xy: 142, 111
+  size: 68, 107
+  orig: 116, 113
+  offset: 23, 0
+  index: 2
+ruby-b
+  rotate: false
+  xy: 142, 2
+  size: 68, 107
+  orig: 116, 113
+  offset: 23, 0
+  index: 3
+ruby-b
+  rotate: false
+  xy: 212, 111
+  size: 68, 107
+  orig: 116, 113
+  offset: 23, 0
+  index: 4
+ruby-b
+  rotate: false
+  xy: 212, 2
+  size: 68, 107
+  orig: 116, 113
+  offset: 23, 0
+  index: 5
+ruby-b
+  rotate: false
+  xy: 282, 111
+  size: 68, 107
+  orig: 116, 113
+  offset: 23, 0
+  index: 6
+ruby-b
+  rotate: false
+  xy: 282, 2
+  size: 68, 107
+  orig: 116, 113
+  offset: 23, 0
+  index: 7
+ruby-b
+  rotate: false
+  xy: 352, 111
+  size: 68, 107
+  orig: 116, 113
+  offset: 23, 0
+  index: 8
+ruby-b
+  rotate: false
+  xy: 352, 2
+  size: 68, 107
+  orig: 116, 113
+  offset: 23, 0
+  index: 9

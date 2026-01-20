@@ -1,0 +1,89 @@
+
+GP.png
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+ruby
+  rotate: false
+  xy: 2, 212
+  size: 116, 113
+  orig: 116, 113
+  offset: 0, 0
+  index: 7
+ruby
+  rotate: false
+  xy: 2, 99
+  size: 111, 111
+  orig: 116, 113
+  offset: 2, 1
+  index: 6
+ruby
+  rotate: false
+  xy: 120, 214
+  size: 111, 111
+  orig: 116, 113
+  offset: 2, 1
+  index: 8
+ruby
+  rotate: false
+  xy: 233, 218
+  size: 106, 107
+  orig: 116, 113
+  offset: 5, 3
+  index: 5
+ruby
+  rotate: false
+  xy: 341, 228
+  size: 95, 97
+  orig: 116, 113
+  offset: 10, 9
+  index: 11
+ruby
+  rotate: false
+  xy: 2, 2
+  size: 91, 95
+  orig: 116, 113
+  offset: 12, 11
+  index: 1
+ruby
+  rotate: false
+  xy: 95, 2
+  size: 91, 95
+  orig: 116, 113
+  offset: 12, 11
+  index: 12
+ruby
+  rotate: false
+  xy: 115, 103
+  size: 106, 107
+  orig: 116, 113
+  offset: 5, 3
+  index: 9
+ruby
+  rotate: false
+  xy: 188, 4
+  size: 95, 97
+  orig: 116, 113
+  offset: 10, 9
+  index: 3
+ruby
+  rotate: false
+  xy: 223, 111
+  size: 101, 101
+  orig: 116, 113
+  offset: 7, 6
+  index: 10
+ruby
+  rotate: false
+  xy: 285, 8
+  size: 101, 101
+  orig: 116, 113
+  offset: 7, 6
+  index: 4
+ruby
+  rotate: false
+  xy: 326, 121
+  size: 91, 95
+  orig: 116, 113
+  offset: 12, 11
+  index: 2

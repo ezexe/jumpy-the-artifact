@@ -1,0 +1,432 @@
+
+shop_jumpyAddons.png
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+farmer-frog-barrel
+  rotate: false
+  xy: 2, 256
+  size: 89, 182
+  orig: 176, 216
+  offset: 43, 8
+  index: 3
+farmer-frog-barrel
+  rotate: false
+  xy: 2, 74
+  size: 89, 180
+  orig: 176, 216
+  offset: 43, 10
+  index: 2
+farmer-frog-barrel
+  rotate: false
+  xy: 93, 260
+  size: 89, 178
+  orig: 176, 216
+  offset: 43, 12
+  index: 1
+farmer-frog-right-1
+  rotate: false
+  xy: 93, 113
+  size: 80, 145
+  orig: 176, 176
+  offset: 53, 5
+  index: -1
+farmer-frog-right-powered-1
+  rotate: false
+  xy: 184, 293
+  size: 80, 145
+  orig: 176, 176
+  offset: 53, 5
+  index: -1
+farmer-frog-left-powered-1
+  rotate: false
+  xy: 266, 293
+  size: 79, 145
+  orig: 176, 176
+  offset: 45, 5
+  index: -1
+sumo-frog-inflate
+  rotate: false
+  xy: 347, 339
+  size: 122, 99
+  orig: 176, 176
+  offset: 25, 61
+  index: 4
+general-frog-fly
+  rotate: false
+  xy: 471, 339
+  size: 119, 99
+  orig: 176, 176
+  offset: 29, 32
+  index: 1
+general-frog-fly
+  rotate: false
+  xy: 592, 338
+  size: 119, 100
+  orig: 176, 176
+  offset: 29, 31
+  index: 2
+general-frog-fly
+  rotate: false
+  xy: 713, 337
+  size: 119, 101
+  orig: 176, 176
+  offset: 29, 30
+  index: 3
+sumo-frog-inflate
+  rotate: false
+  xy: 834, 343
+  size: 122, 95
+  orig: 176, 176
+  offset: 25, 63
+  index: 1
+farmer-frog-powered
+  rotate: false
+  xy: 93, 2
+  size: 71, 109
+  orig: 176, 176
+  offset: 54, 5
+  index: 3
+high_jump_shoes_frog-5
+  rotate: false
+  xy: 347, 290
+  size: 127, 47
+  orig: 176, 176
+  offset: 23, 61
+  index: -1
+mafia-frog-5
+  rotate: false
+  xy: 184, 204
+  size: 122, 87
+  orig: 176, 176
+  offset: 25, 63
+  index: -1
+sumo-frog-inflate
+  rotate: false
+  xy: 175, 111
+  size: 122, 91
+  orig: 176, 176
+  offset: 25, 65
+  index: 2
+farmer-frog-powered-5
+  rotate: false
+  xy: 166, 22
+  size: 121, 87
+  orig: 176, 176
+  offset: 26, 64
+  index: -1
+sumo-frog-inflate
+  rotate: false
+  xy: 308, 203
+  size: 122, 85
+  orig: 176, 176
+  offset: 25, 68
+  index: 3
+shield
+  rotate: false
+  xy: 299, 90
+  size: 94, 111
+  orig: 118, 118
+  offset: 12, 2
+  index: 1
+cape-5
+  rotate: false
+  xy: 289, 24
+  size: 98, 64
+  orig: 98, 64
+  offset: 0, 0
+  index: -1
+farmer-frog-powered
+  rotate: false
+  xy: 395, 56
+  size: 70, 145
+  orig: 176, 176
+  offset: 53, 5
+  index: 4
+mafia-frog
+  rotate: false
+  xy: 432, 203
+  size: 56, 85
+  orig: 176, 176
+  offset: 59, 5
+  index: 2
+mafia-frog-left-1
+  rotate: false
+  xy: 467, 53
+  size: 57, 148
+  orig: 176, 176
+  offset: 52, 5
+  index: -1
+shield
+  rotate: false
+  xy: 490, 226
+  size: 94, 111
+  orig: 118, 118
+  offset: 12, 2
+  index: 4
+shield
+  rotate: false
+  xy: 586, 225
+  size: 79, 111
+  orig: 118, 118
+  offset: 19, 2
+  index: 2
+mafia-frog-right-1
+  rotate: false
+  xy: 526, 77
+  size: 58, 147
+  orig: 176, 176
+  offset: 68, 5
+  index: -1
+mafia-frog
+  rotate: false
+  xy: 586, 78
+  size: 59, 145
+  orig: 176, 176
+  offset: 58, 5
+  index: 4
+cape
+  rotate: false
+  xy: 2, 8
+  size: 77, 64
+  orig: 77, 64
+  offset: 0, 0
+  index: 1
+shield
+  rotate: false
+  xy: 667, 224
+  size: 65, 111
+  orig: 118, 118
+  offset: 26, 2
+  index: 3
+farmer-frog-powered-1
+  rotate: false
+  xy: 734, 246
+  size: 83, 89
+  orig: 176, 176
+  offset: 53, 5
+  index: -1
+farmer-frog-powered
+  rotate: false
+  xy: 734, 246
+  size: 83, 89
+  orig: 176, 176
+  offset: 53, 5
+  index: 1
+mafia-frog
+  rotate: false
+  xy: 647, 112
+  size: 57, 110
+  orig: 176, 176
+  offset: 59, 5
+  index: 3
+cape-left
+  rotate: false
+  xy: 706, 118
+  size: 61, 104
+  orig: 61, 104
+  offset: 0, 0
+  index: -1
+cape-right
+  rotate: false
+  xy: 769, 140
+  size: 62, 104
+  orig: 62, 104
+  offset: 0, 0
+  index: -1
+helicopter
+  rotate: false
+  xy: 834, 315
+  size: 124, 26
+  orig: 136, 41
+  offset: 6, 7
+  index: 1
+helicopter
+  rotate: false
+  xy: 819, 287
+  size: 124, 26
+  orig: 136, 41
+  offset: 6, 7
+  index: 2
+helicopter
+  rotate: false
+  xy: 819, 259
+  size: 124, 26
+  orig: 136, 41
+  offset: 6, 7
+  index: 3
+farmer-frog-powered
+  rotate: false
+  xy: 833, 174
+  size: 76, 83
+  orig: 176, 176
+  offset: 53, 5
+  index: 2
+high_jump_shoes_frog
+  rotate: false
+  xy: 289, 2
+  size: 62, 20
+  orig: 176, 176
+  offset: 56, 4
+  index: 2
+shotgun
+  rotate: false
+  xy: 911, 157
+  size: 25, 100
+  orig: 25, 100
+  offset: 0, 0
+  index: 1
+cape
+  rotate: false
+  xy: 833, 110
+  size: 68, 62
+  orig: 68, 62
+  offset: 0, 0
+  index: 2
+goggle
+  rotate: false
+  xy: 166, 2
+  size: 38, 18
+  orig: 38, 18
+  offset: 0, 0
+  index: 2
+goggle
+  rotate: false
+  xy: 206, 2
+  size: 38, 18
+  orig: 38, 18
+  offset: 0, 0
+  index: 4
+goggle-5
+  rotate: false
+  xy: 246, 2
+  size: 37, 18
+  orig: 37, 18
+  offset: 0, 0
+  index: -1
+high_jump_shoes_frog
+  rotate: false
+  xy: 647, 74
+  size: 60, 36
+  orig: 176, 176
+  offset: 57, 5
+  index: 3
+mafia-frog-1
+  rotate: false
+  xy: 709, 26
+  size: 61, 90
+  orig: 176, 176
+  offset: 57, 5
+  index: -1
+mafia-frog
+  rotate: false
+  xy: 709, 26
+  size: 61, 90
+  orig: 176, 176
+  offset: 57, 5
+  index: 1
+cape
+  rotate: false
+  xy: 772, 34
+  size: 53, 104
+  orig: 53, 104
+  offset: 0, 0
+  index: 4
+cape
+  rotate: false
+  xy: 827, 26
+  size: 51, 82
+  orig: 51, 82
+  offset: 0, 0
+  index: 3
+shotgun
+  rotate: false
+  xy: 880, 8
+  size: 25, 100
+  orig: 25, 100
+  offset: 0, 0
+  index: 2
+high_jump_shoes_frog
+  rotate: false
+  xy: 389, 29
+  size: 64, 25
+  orig: 176, 176
+  offset: 56, 5
+  index: 1
+high_jump_shoes_frog
+  rotate: false
+  xy: 526, 14
+  size: 46, 61
+  orig: 176, 176
+  offset: 65, 5
+  index: 4
+high_jump_shoes_frog_left
+  rotate: false
+  xy: 574, 14
+  size: 46, 61
+  orig: 176, 176
+  offset: 65, 0
+  index: 1
+high_jump_shoes_frog_right
+  rotate: false
+  xy: 622, 10
+  size: 45, 62
+  orig: 176, 176
+  offset: 64, 0
+  index: 1
+goggle-right
+  rotate: false
+  xy: 669, 53
+  size: 38, 19
+  orig: 38, 19
+  offset: 0, 0
+  index: -1
+goggle-left
+  rotate: false
+  xy: 669, 32
+  size: 37, 19
+  orig: 37, 19
+  offset: 0, 0
+  index: -1
+goggle
+  rotate: false
+  xy: 669, 12
+  size: 37, 18
+  orig: 37, 18
+  offset: 0, 0
+  index: 3
+left-tommy-gun
+  rotate: false
+  xy: 907, 75
+  size: 25, 80
+  orig: 25, 80
+  offset: 0, 0
+  index: -1
+right-tommy-gun
+  rotate: false
+  xy: 934, 75
+  size: 25, 80
+  orig: 25, 80
+  offset: 0, 0
+  index: -1
+goggle
+  rotate: false
+  xy: 907, 56
+  size: 40, 17
+  orig: 40, 17
+  offset: 0, 0
+  index: 1
+tommygun-bullet
+  rotate: false
+  xy: 827, 132
+  size: 4, 6
+  orig: 4, 6
+  offset: 0, 0
+  index: -1
+shotgun-bullet
+  rotate: false
+  xy: 285, 18
+  size: 2, 2
+  orig: 2, 2
+  offset: 0, 0
+  index: -1

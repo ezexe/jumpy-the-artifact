@@ -1,0 +1,411 @@
+
+gameUi.png
+format: RGBA4444
+filter: Nearest,Nearest
+repeat: none
+go-txt
+  rotate: false
+  xy: 2, 504
+  size: 382, 263
+  orig: 382, 263
+  offset: 0, 0
+  index: -1
+ready-txt
+  rotate: false
+  xy: 2, 332
+  size: 422, 170
+  orig: 422, 170
+  offset: 0, 0
+  index: -1
+you-have-obtained-an-achievement-
+  rotate: false
+  xy: 2, 304
+  size: 402, 26
+  orig: 402, 26
+  offset: 0, 0
+  index: -1
+paused-txt
+  rotate: false
+  xy: 386, 691
+  size: 269, 76
+  orig: 276, 77
+  offset: 6, 0
+  index: -1
+start-button-default
+  rotate: false
+  xy: 2, 143
+  size: 159, 159
+  orig: 174, 174
+  offset: 9, 4
+  index: -1
+start-button-over
+  rotate: false
+  xy: 386, 530
+  size: 159, 159
+  orig: 174, 174
+  offset: 9, 4
+  index: -1
+left-control-white
+  rotate: false
+  xy: 163, 155
+  size: 147, 147
+  orig: 147, 147
+  offset: 0, 0
+  index: -1
+right-control-white
+  rotate: false
+  xy: 547, 542
+  size: 147, 147
+  orig: 147, 147
+  offset: 0, 0
+  index: -1
+yes-btn-over
+  rotate: false
+  xy: 2, 74
+  size: 157, 67
+  orig: 157, 67
+  offset: 0, 0
+  index: -1
+yes-btn
+  rotate: false
+  xy: 2, 5
+  size: 157, 67
+  orig: 157, 67
+  offset: 0, 0
+  index: -1
+power-timer
+  rotate: false
+  xy: 312, 216
+  size: 85, 86
+  orig: 85, 86
+  offset: 0, 0
+  index: 20
+facebook-stats-btn-over
+  rotate: false
+  xy: 426, 464
+  size: 138, 64
+  orig: 138, 64
+  offset: 0, 0
+  index: -1
+facebook-stats-btn
+  rotate: false
+  xy: 426, 398
+  size: 138, 64
+  orig: 138, 64
+  offset: 0, 0
+  index: -1
+google-plus-stats-btn-over
+  rotate: false
+  xy: 426, 332
+  size: 138, 64
+  orig: 138, 64
+  offset: 0, 0
+  index: -1
+maybe-later-btn-over
+  rotate: false
+  xy: 406, 285
+  size: 180, 45
+  orig: 180, 45
+  offset: 0, 0
+  index: -1
+maybe-later-btn
+  rotate: false
+  xy: 399, 238
+  size: 180, 45
+  orig: 180, 45
+  offset: 0, 0
+  index: -1
+google-plus-stats-btn
+  rotate: false
+  xy: 566, 476
+  size: 138, 64
+  orig: 138, 64
+  offset: 0, 0
+  index: -1
+power-timer
+  rotate: false
+  xy: 566, 388
+  size: 85, 86
+  orig: 85, 86
+  offset: 0, 0
+  index: 21
+power-timer
+  rotate: false
+  xy: 312, 128
+  size: 85, 86
+  orig: 85, 86
+  offset: 0, 0
+  index: 22
+power-timer
+  rotate: false
+  xy: 399, 150
+  size: 85, 86
+  orig: 85, 86
+  offset: 0, 0
+  index: 23
+power-timer
+  rotate: false
+  xy: 486, 150
+  size: 85, 86
+  orig: 85, 86
+  offset: 0, 0
+  index: 24
+home-icon-btn-over
+  rotate: false
+  xy: 657, 697
+  size: 70, 70
+  orig: 70, 70
+  offset: 0, 0
+  index: -1
+power-timer
+  rotate: false
+  xy: 653, 388
+  size: 51, 86
+  orig: 85, 86
+  offset: 34, 0
+  index: 14
+power-timer
+  rotate: false
+  xy: 729, 681
+  size: 52, 86
+  orig: 85, 86
+  offset: 33, 0
+  index: 15
+power-timer
+  rotate: false
+  xy: 696, 593
+  size: 85, 86
+  orig: 85, 86
+  offset: 0, 0
+  index: 25
+power-timer
+  rotate: false
+  xy: 588, 300
+  size: 85, 86
+  orig: 85, 86
+  offset: 0, 0
+  index: 26
+power-timer
+  rotate: false
+  xy: 675, 300
+  size: 61, 86
+  orig: 85, 86
+  offset: 24, 0
+  index: 16
+power-timer
+  rotate: false
+  xy: 706, 505
+  size: 76, 86
+  orig: 85, 86
+  offset: 9, 0
+  index: 18
+power-timer
+  rotate: false
+  xy: 706, 417
+  size: 70, 86
+  orig: 85, 86
+  offset: 15, 0
+  index: 17
+power-timer
+  rotate: false
+  xy: 399, 62
+  size: 85, 86
+  orig: 85, 86
+  offset: 0, 0
+  index: 27
+power-timer
+  rotate: false
+  xy: 486, 62
+  size: 82, 86
+  orig: 85, 86
+  offset: 3, 0
+  index: 19
+life-heart
+  rotate: false
+  xy: 706, 389
+  size: 74, 26
+  orig: 74, 26
+  offset: 0, 0
+  index: -1
+power-timer
+  rotate: false
+  xy: 573, 152
+  size: 48, 84
+  orig: 85, 86
+  offset: 37, 2
+  index: 13
+power-timer
+  rotate: false
+  xy: 588, 238
+  size: 48, 60
+  orig: 85, 86
+  offset: 37, 26
+  index: 9
+home-icon-btn
+  rotate: false
+  xy: 638, 228
+  size: 70, 70
+  orig: 70, 70
+  offset: 0, 0
+  index: -1
+menu-btn-over
+  rotate: false
+  xy: 623, 156
+  size: 70, 70
+  orig: 70, 70
+  offset: 0, 0
+  index: -1
+menu-btn
+  rotate: false
+  xy: 710, 228
+  size: 70, 70
+  orig: 70, 70
+  offset: 0, 0
+  index: -1
+power-btn-over
+  rotate: false
+  xy: 695, 156
+  size: 70, 70
+  orig: 70, 70
+  offset: 0, 0
+  index: -1
+power-timer
+  rotate: false
+  xy: 738, 343
+  size: 46, 44
+  orig: 85, 86
+  offset: 37, 42
+  index: 6
+cherry-counter
+  rotate: false
+  xy: 163, 120
+  size: 74, 33
+  orig: 74, 33
+  offset: 0, 0
+  index: -1
+power-btn
+  rotate: false
+  xy: 161, 48
+  size: 70, 70
+  orig: 70, 70
+  offset: 0, 0
+  index: -1
+settings-btn-default
+  rotate: false
+  xy: 239, 85
+  size: 68, 68
+  orig: 68, 68
+  offset: 0, 0
+  index: -1
+settings-btn-over-m
+  rotate: false
+  xy: 309, 58
+  size: 68, 68
+  orig: 68, 68
+  offset: 0, 0
+  index: -1
+hints_btn
+  rotate: false
+  xy: 233, 19
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+power-timer
+  rotate: false
+  xy: 161, 2
+  size: 48, 44
+  orig: 85, 86
+  offset: 37, 42
+  index: 7
+power-timer
+  rotate: false
+  xy: 570, 68
+  size: 48, 80
+  orig: 85, 86
+  offset: 37, 6
+  index: 12
+power-timer
+  rotate: false
+  xy: 299, 5
+  size: 48, 51
+  orig: 85, 86
+  offset: 37, 35
+  index: 8
+power-timer
+  rotate: false
+  xy: 620, 75
+  size: 48, 75
+  orig: 85, 86
+  offset: 37, 11
+  index: 11
+hints_btn_over
+  rotate: false
+  xy: 670, 90
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+power-timer
+  rotate: false
+  xy: 736, 86
+  size: 48, 68
+  orig: 85, 86
+  offset: 37, 18
+  index: 10
+power-timer
+  rotate: false
+  xy: 349, 12
+  size: 36, 44
+  orig: 85, 86
+  offset: 37, 42
+  index: 4
+power-timer
+  rotate: false
+  xy: 387, 17
+  size: 42, 43
+  orig: 85, 86
+  offset: 37, 43
+  index: 5
+power-timer
+  rotate: false
+  xy: 431, 17
+  size: 29, 43
+  orig: 85, 86
+  offset: 37, 43
+  index: 3
+power-timer
+  rotate: false
+  xy: 462, 17
+  size: 21, 43
+  orig: 85, 86
+  offset: 37, 43
+  index: 2
+power-timer
+  rotate: false
+  xy: 566, 343
+  size: 12, 43
+  orig: 85, 86
+  offset: 37, 43
+  index: 1
+star-collected
+  rotate: false
+  xy: 738, 315
+  size: 26, 26
+  orig: 26, 26
+  offset: 0, 0
+  index: -1
+star-required
+  rotate: false
+  xy: 485, 34
+  size: 26, 26
+  orig: 26, 26
+  offset: 0, 0
+  index: -1
+game-menu-background
+  rotate: false
+  xy: 309, 152
+  size: 1, 1
+  orig: 1, 1
+  offset: 0, 0
+  index: -1

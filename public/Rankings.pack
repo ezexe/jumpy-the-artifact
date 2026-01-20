@@ -1,0 +1,278 @@
+
+Rankings.png
+format: RGBA8888
+filter: Nearest,Nearest
+repeat: none
+request-life-background
+  rotate: false
+  xy: 2, 261
+  size: 425, 95
+  orig: 425, 95
+  offset: 0, 0
+  index: -1
+friend-background
+  rotate: false
+  xy: 429, 289
+  size: 434, 67
+  orig: 434, 68
+  offset: 0, 0
+  index: -1
+empty-award-icon-container
+  rotate: false
+  xy: 865, 275
+  size: 80, 81
+  orig: 80, 81
+  offset: 0, 0
+  index: -1
+berrylionare-icon
+  rotate: false
+  xy: 947, 296
+  size: 60, 60
+  orig: 60, 60
+  offset: 0, 0
+  index: -1
+dandelion-smasher-award-icon
+  rotate: false
+  xy: 947, 234
+  size: 60, 60
+  orig: 60, 60
+  offset: 0, 0
+  index: -1
+invited-background
+  rotate: false
+  xy: 429, 228
+  size: 425, 59
+  orig: 425, 59
+  offset: 0, 0
+  index: -1
+invitee-background
+  rotate: false
+  xy: 2, 200
+  size: 425, 59
+  orig: 425, 59
+  offset: 0, 0
+  index: -1
+achievements-icon-btn-over
+  rotate: false
+  xy: 856, 203
+  size: 70, 70
+  orig: 70, 70
+  offset: 0, 0
+  index: -1
+achievements-icon-btn
+  rotate: false
+  xy: 928, 162
+  size: 70, 70
+  orig: 70, 70
+  offset: 0, 0
+  index: -1
+challenge_life_background
+  rotate: false
+  xy: 2, 80
+  size: 212, 80
+  orig: 212, 80
+  offset: 0, 0
+  index: -1
+achievements
+  rotate: false
+  xy: 2, 167
+  size: 224, 31
+  orig: 224, 31
+  offset: 0, 0
+  index: -1
+challenge_icon_btn
+  rotate: false
+  xy: 2, 8
+  size: 70, 70
+  orig: 70, 70
+  offset: 0, 0
+  index: -1
+challenge_icon_btn_over
+  rotate: false
+  xy: 74, 8
+  size: 70, 70
+  orig: 70, 70
+  offset: 0, 0
+  index: -1
+leaderboard-icon-btn-over
+  rotate: false
+  xy: 146, 8
+  size: 70, 70
+  orig: 70, 70
+  offset: 0, 0
+  index: -1
+leaderboard-icon-btn
+  rotate: false
+  xy: 216, 90
+  size: 70, 70
+  orig: 70, 70
+  offset: 0, 0
+  index: -1
+highscores
+  rotate: false
+  xy: 228, 167
+  size: 176, 31
+  orig: 176, 31
+  offset: 0, 0
+  index: -1
+life_icon_btn
+  rotate: false
+  xy: 218, 18
+  size: 70, 70
+  orig: 70, 70
+  offset: 0, 0
+  index: -1
+life_icon_btn_over
+  rotate: false
+  xy: 288, 90
+  size: 70, 70
+  orig: 70, 70
+  offset: 0, 0
+  index: -1
+help-your-friends-out
+  rotate: false
+  xy: 218, 2
+  size: 266, 14
+  orig: 266, 14
+  offset: 0, 0
+  index: -1
+request-life-icon-btn-over
+  rotate: false
+  xy: 290, 18
+  size: 70, 70
+  orig: 70, 70
+  offset: 0, 0
+  index: -1
+request-life-icon-btn
+  rotate: false
+  xy: 360, 90
+  size: 70, 70
+  orig: 70, 70
+  offset: 0, 0
+  index: -1
+invite-friends-btn-over-txt
+  rotate: false
+  xy: 429, 164
+  size: 307, 62
+  orig: 307, 62
+  offset: 0, 0
+  index: -1
+invite-friends-btn-txt
+  rotate: false
+  xy: 362, 26
+  size: 307, 62
+  orig: 307, 62
+  offset: 0, 0
+  index: -1
+extreme-berry-collector-icon
+  rotate: false
+  xy: 432, 100
+  size: 60, 60
+  orig: 60, 60
+  offset: 0, 0
+  index: -1
+extreme-monster-smasher-icon
+  rotate: false
+  xy: 494, 100
+  size: 60, 60
+  orig: 60, 60
+  offset: 0, 0
+  index: -1
+extreme-pro-skills-player-icon
+  rotate: false
+  xy: 556, 100
+  size: 60, 60
+  orig: 60, 60
+  offset: 0, 0
+  index: -1
+focused-stamina-award-icon
+  rotate: false
+  xy: 618, 100
+  size: 60, 60
+  orig: 60, 60
+  offset: 0, 0
+  index: -1
+junior-berry-collector-icon
+  rotate: false
+  xy: 671, 38
+  size: 60, 60
+  orig: 60, 60
+  offset: 0, 0
+  index: -1
+life-icon
+  rotate: false
+  xy: 680, 100
+  size: 60, 60
+  orig: 60, 60
+  offset: 0, 0
+  index: -1
+monster-smasher-icon
+  rotate: false
+  xy: 738, 166
+  size: 60, 60
+  orig: 60, 60
+  offset: 0, 0
+  index: -1
+novice-jumper-award-icon
+  rotate: false
+  xy: 733, 38
+  size: 60, 60
+  orig: 60, 60
+  offset: 0, 0
+  index: -1
+pro-monster-smasher-icon
+  rotate: false
+  xy: 742, 100
+  size: 60, 60
+  orig: 60, 60
+  offset: 0, 0
+  index: -1
+pro-skills-player-icon
+  rotate: false
+  xy: 795, 38
+  size: 60, 60
+  orig: 60, 60
+  offset: 0, 0
+  index: -1
+skills-player-icon
+  rotate: false
+  xy: 804, 100
+  size: 60, 60
+  orig: 60, 60
+  offset: 0, 0
+  index: -1
+stamina-award-icon
+  rotate: false
+  xy: 866, 141
+  size: 60, 60
+  orig: 60, 60
+  offset: 0, 0
+  index: -1
+star-coins-collector-award-icon
+  rotate: false
+  xy: 928, 100
+  size: 60, 60
+  orig: 60, 60
+  offset: 0, 0
+  index: -1
+super-berry-collector-icon
+  rotate: false
+  xy: 866, 79
+  size: 60, 60
+  orig: 60, 60
+  offset: 0, 0
+  index: -1
+super-duper-insane-jumper-award-icon
+  rotate: false
+  xy: 857, 17
+  size: 60, 60
+  orig: 60, 60
+  offset: 0, 0
+  index: -1
+super-jumper-award-icon
+  rotate: false
+  xy: 919, 17
+  size: 60, 60
+  orig: 60, 60
+  offset: 0, 0
+  index: -1
