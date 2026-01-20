@@ -6,11 +6,7 @@ A vertical platformer game inspired by Doodle Jump, built as a single React comp
 
 This project is published as a public artifact to demonstrate:
 
-- Building a complete game as a single React component
-- HTML5 Canvas rendering with requestAnimationFrame game loop
-- Hybrid architecture combining React state management with mutable game state
-- Procedural generation of platforms, enemies, and power-ups
-- Power-up queue system design pattern
+- Building a complete game as a single Claude Artifact
 
 Feel free to use this as a learning resource, fork it, or build upon it.
 
