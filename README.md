@@ -31,6 +31,22 @@ Use arrow keys or A/D to move left/right. Collect gems for points and power-ups 
 - **Mario-style Protection**: Getting hit with an active power-up removes the power instead of ending the game
 - **Fall Rescue**: Persistent powers (Cape, Shield, Weapons) save you from falling once
 
+## Artifact
+
+https://claude.ai/public/artifacts/4b281d60-2bea-477d-82bc-7d8b1093f8a7
+
+```html
+<iframe
+  src="https://claude.site/public/artifacts/4b281d60-2bea-477d-82bc-7d8b1093f8a7/embed"
+  title="Claude Artifact"
+  width="100%"
+  height="600"
+  frameborder="0"
+  allow="clipboard-write"
+  allowfullscreen
+></iframe>
+```
+
 ## Run Locally
 
 ```bash
