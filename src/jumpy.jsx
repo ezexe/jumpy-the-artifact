@@ -1398,7 +1398,7 @@ export default function JumpyFrog() {
         {gameState === 'menu' && (
           <div className="absolute inset-0 bg-black/50 rounded-2xl flex flex-col items-center justify-center">
             <h1 className="text-5xl font-bold text-green-400 drop-shadow-lg mb-2" style={{ textShadow: '3px 3px 0 #166534' }}>JUMPY</h1>
-            <h1 className="text-5xl font-bold text-green-400 drop-shadow-lg mb-6" style={{ textShadow: '3px 3px 0 #166534' }}>FROG</h1>
+            <h1 className="text-5xl font-bold text-green-400 drop-shadow-lg mb-6" style={{ textShadow: '3px 3px 0 #166534' }}>THE ARTIFACT</h1>
             <button
               onClick={() => { initGame(); setGameState('playing'); }}
               className="w-28 h-28 rounded-full bg-green-500 hover:bg-green-400 flex items-center justify-center shadow-xl border-4 border-green-700 transition-transform hover:scale-105"
