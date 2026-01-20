@@ -147,7 +147,7 @@ const hasWeapon = (frog) => {
   return frog.hasLaser || frog.hasShotgun || frog.hasTommyGun;
 };
 
-// Clear all power states
+// Clear all power states (does NOT clear queue)
 const clearAllPowers = (frog) => {
   frog.hasRocket = false;
   frog.rocketTimer = 0;
@@ -166,6 +166,64 @@ const clearAllPowers = (frog) => {
   frog.hasShotgun = false;
   frog.hasTommyGun = false;
   frog.weaponCooldown = 0;
+};
+
+// Activate a specific power-up on the frog
+const activatePower = (frog, powerType) => {
+  switch (powerType) {
+    case 'rocket':
+      frog.hasRocket = true;
+      frog.rocketTimer = POWER_CONFIG.rocket.duration;
+      break;
+    case 'cape':
+      frog.hasCape = true;
+      break;
+    case 'spring':
+      frog.vy = JUMP_FORCE * 2.5;
+      break;
+    case 'shield':
+      frog.hasShield = true;
+      frog.shieldHits = 0;
+      break;
+    case 'propeller':
+      frog.hasPropeller = true;
+      frog.propellerTimer = POWER_CONFIG.propeller.duration;
+      break;
+    case 'springShoes':
+      frog.hasSpringShoes = true;
+      frog.springShoesJumps = POWER_CONFIG.springShoes.jumps;
+      break;
+    case 'magnet':
+      frog.hasMagnet = true;
+      frog.magnetTimer = POWER_CONFIG.magnet.duration;
+      break;
+    case 'sumo':
+      frog.hasSumo = true;
+      frog.sumoTimer = POWER_CONFIG.sumo.duration;
+      break;
+    case 'laser':
+      frog.hasLaser = true;
+      frog.weaponCooldown = 0;
+      break;
+    case 'shotgun':
+      frog.hasShotgun = true;
+      frog.weaponCooldown = 0;
+      break;
+    case 'tommyGun':
+      frog.hasTommyGun = true;
+      frog.weaponCooldown = 0;
+      break;
+  }
+};
+
+// Activate the next power-up from the queue (if any)
+const activateNextQueuedPower = (frog) => {
+  if (frog.powerQueue.length > 0) {
+    const nextPower = frog.powerQueue.shift();
+    activatePower(frog, nextPower);
+    return true;
+  }
+  return false;
 };
 
 // ============== MAIN COMPONENT ==============
@@ -223,7 +281,9 @@ export default function JumpyFrog() {
       // Mario-style invincibility
       invincible: false,
       invincibleTimer: 0,
-      flashTimer: 0
+      flashTimer: 0,
+      // Power-up queue (collected powers waiting to activate)
+      powerQueue: []
     };
   }
 
@@ -993,6 +1053,30 @@ export default function JumpyFrog() {
       ctx.fillText(timeText, 40, yPos + 17);
     });
 
+    // Power-up queue display
+    if (frog.powerQueue && frog.powerQueue.length > 0) {
+      const queueY = 55 + indicators.length * 28 + 5;
+      ctx.fillStyle = 'rgba(0,0,0,0.4)';
+      ctx.fillRect(10, queueY, 100, 20);
+      ctx.fillStyle = '#888';
+      ctx.font = 'bold 10px Arial';
+      ctx.textAlign = 'left';
+      ctx.fillText('QUEUED:', 15, queueY + 14);
+
+      const powerIcons = {
+        rocket: '🚀', cape: '🦸', shield: '🛡️', propeller: '🚁',
+        springShoes: '👟', magnet: '🧲', sumo: '💪',
+        laser: '🔫', shotgun: '🔥', tommyGun: '💥'
+      };
+      const queueIcons = frog.powerQueue.slice(0, 3).map(p => powerIcons[p] || '?').join('');
+      ctx.font = '12px Arial';
+      ctx.fillText(queueIcons, 60, queueY + 14);
+      if (frog.powerQueue.length > 3) {
+        ctx.fillStyle = '#666';
+        ctx.fillText(`+${frog.powerQueue.length - 3}`, 90, queueY + 14);
+      }
+    }
+
     // Weapon shooting hint
     if (hasWeapon(frog)) {
       ctx.fillStyle = 'rgba(0,0,0,0.5)';
@@ -1035,12 +1119,18 @@ export default function JumpyFrog() {
       if (frog.hasRocket) {
         frog.vy = ROCKET_SPEED;
         frog.rocketTimer--;
-        if (frog.rocketTimer <= 0) frog.hasRocket = false;
+        if (frog.rocketTimer <= 0) {
+          frog.hasRocket = false;
+          activateNextQueuedPower(frog);
+        }
       } else if (frog.hasPropeller) {
         frog.vy = PROPELLER_SPEED;
         frog.propellerAngle += 0.5;
         frog.propellerTimer--;
-        if (frog.propellerTimer <= 0) frog.hasPropeller = false;
+        if (frog.propellerTimer <= 0) {
+          frog.hasPropeller = false;
+          activateNextQueuedPower(frog);
+        }
       } else if (frog.hasCape && frog.vy > 0) {
         frog.vy += CAPE_GRAVITY;
         frog.vy = Math.min(frog.vy, CAPE_MAX_FALL_SPEED);
@@ -1051,11 +1141,17 @@ export default function JumpyFrog() {
       // Timed power-up updates
       if (frog.hasMagnet) {
         frog.magnetTimer--;
-        if (frog.magnetTimer <= 0) frog.hasMagnet = false;
+        if (frog.magnetTimer <= 0) {
+          frog.hasMagnet = false;
+          activateNextQueuedPower(frog);
+        }
       }
       if (frog.hasSumo) {
         frog.sumoTimer--;
-        if (frog.sumoTimer <= 0) frog.hasSumo = false;
+        if (frog.sumoTimer <= 0) {
+          frog.hasSumo = false;
+          activateNextQueuedPower(frog);
+        }
       }
 
       // Invincibility timer
@@ -1099,7 +1195,10 @@ export default function JumpyFrog() {
             if (frog.hasSpringShoes) {
               jumpForce *= SPRING_SHOES_JUMP_MULTIPLIER;
               frog.springShoesJumps--;
-              if (frog.springShoesJumps <= 0) frog.hasSpringShoes = false;
+              if (frog.springShoesJumps <= 0) {
+                frog.hasSpringShoes = false;
+                activateNextQueuedPower(frog);
+              }
             }
 
             if (platform.type === 'breakable') {
@@ -1161,52 +1260,15 @@ export default function JumpyFrog() {
         if (checkCollision(frog, powerup)) {
           powerup.collected = true;
 
-          // Clear previous powers (replacement mechanic)
-          clearAllPowers(frog);
-
-          switch (powerup.type) {
-            case 'rocket':
-              frog.hasRocket = true;
-              frog.rocketTimer = POWER_CONFIG.rocket.duration;
-              break;
-            case 'cape':
-              frog.hasCape = true;
-              break;
-            case 'spring':
-              frog.vy = JUMP_FORCE * 2.5;
-              break;
-            case 'shield':
-              frog.hasShield = true;
-              frog.shieldHits = 0;
-              break;
-            case 'propeller':
-              frog.hasPropeller = true;
-              frog.propellerTimer = POWER_CONFIG.propeller.duration;
-              break;
-            case 'springShoes':
-              frog.hasSpringShoes = true;
-              frog.springShoesJumps = POWER_CONFIG.springShoes.jumps;
-              break;
-            case 'magnet':
-              frog.hasMagnet = true;
-              frog.magnetTimer = POWER_CONFIG.magnet.duration;
-              break;
-            case 'sumo':
-              frog.hasSumo = true;
-              frog.sumoTimer = POWER_CONFIG.sumo.duration;
-              break;
-            case 'laser':
-              frog.hasLaser = true;
-              frog.weaponCooldown = 0;
-              break;
-            case 'shotgun':
-              frog.hasShotgun = true;
-              frog.weaponCooldown = 0;
-              break;
-            case 'tommyGun':
-              frog.hasTommyGun = true;
-              frog.weaponCooldown = 0;
-              break;
+          // Spring is instant effect, always apply immediately
+          if (powerup.type === 'spring') {
+            activatePower(frog, 'spring');
+          } else if (hasAnyPower(frog) || frog.powerQueue.length > 0) {
+            // Queue the power-up if we already have one active or queued
+            frog.powerQueue.push(powerup.type);
+          } else {
+            // No active power, activate immediately
+            activatePower(frog, powerup.type);
           }
 
           g.particles.push(...createParticles(powerup.x + 20, powerup.y + 25, '#FFD700', 8));
@@ -1328,6 +1390,7 @@ export default function JumpyFrog() {
               frog.invincible = true;
               frog.invincibleTimer = 60;
               frog.flashTimer = 60;
+              activateNextQueuedPower(frog);
             }
             continue;
           }
@@ -1347,6 +1410,7 @@ export default function JumpyFrog() {
             frog.flashTimer = INVINCIBILITY_DURATION;
             g.particles.push(...createParticles(enemy.x + enemy.width/2, enemy.y + enemy.height/2, '#FFEB3B', 10));
             g.enemies.splice(i, 1);
+            activateNextQueuedPower(frog);
             continue;
           }
 
@@ -1405,6 +1469,7 @@ export default function JumpyFrog() {
           frog.flashTimer = 60;
 
           g.particles.push(...createParticles(frog.x + frog.width/2, frog.y + frog.height/2, '#FFD700', 12));
+          activateNextQueuedPower(frog);
         } else {
           setHighScore(prev => Math.max(prev, g.score));
           setGameState('gameover');
